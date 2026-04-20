@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Voice Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="toggle">
+        <button id="themeBtn">🌙</button>
+    </div>
+
+    <div class="card glass">
+
+        <h1>🎤 AI Voice Detection</h1>
+
+        <button id="recordBtn">🎤 Start Recording</button>
+
+        <!-- 🎧 Wave Animation -->
+        <div class="wave" id="wave">
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <p id="status"></p>
+
+        <div class="loader" id="loader"></div>
+
+        <h2 id="result"></h2>
+        <p id="confidence"></p>
+        <canvas id="visualizer" width="300" height="100"></canvas>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
